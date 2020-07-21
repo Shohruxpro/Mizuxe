@@ -1,0 +1,17 @@
+{
+  "name": "mizuxe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/bootstrap.scss css/bootstrap.css -w",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "shohruxpro",
+  "homepage": "https://shohruxpro.github.io/starwars",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "node-sass": "^4.14.1"
+  }
+}
